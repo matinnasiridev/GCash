@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">G Cash</string>
+    <string name="programmer">Matin Nasiri</string>
+    <string name="made_by">Made by</string>
+
+
+    <string name="your_money">Your Money:</string>
+    <string name="projected_earning">Projected Earning</string>
+
+    <string name="day">/ day</string>
+    <string name="month">/ month</string>
+    <string name="year">/ year</string>
+</resources>

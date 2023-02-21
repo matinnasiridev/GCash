@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#0B0C0E</color>
+    <color name="white">#FFF</color>
+
+    <color name="one_purple">#583BE8</color>
+    <color name="two_purple">#8466FF</color>
+
+    <color name="action_color">#ECECFE</color>
+    <color name="small_text">#E2E4E9</color>
+    <color name="one_gray">#C4C7CF</color>
+    <color name="two_gray">#838696</color>
+    <color name="three_gray">#5C5F6E</color>
+
+</resources>

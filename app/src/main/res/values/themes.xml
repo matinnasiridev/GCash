@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GCash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/two_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/one_purple</item>
+
+        <item name="colorSecondary">@color/one_purple</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Navigation bar color. -->
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:navigationBarColor">?attr/colorOnPrimary</item>
+
+
+    </style>
+
+
+    <!--- coinbit text style -->
+
+    <style name="CashBitText" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+
+    <style name="CashBitText.CaptionMoney" parent="CashBitText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="CashBitText.CaptionSmall" parent="CashBitText">
+        <item name="android:textColor">@color/one_gray</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CashBitText.CaptionBox" parent="CashBitText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CashBitText.CaptionTitle" parent="CashBitText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>
